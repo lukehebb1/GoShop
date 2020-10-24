@@ -1,0 +1,1 @@
+Our blog can be found [here](https://rachelwhite75.wixsite.com/goshop)

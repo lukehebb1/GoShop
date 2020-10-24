@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_userhome">
+
+    <fragment
+        android:id="@+id/navigation_userhome"
+        android:name="com.example.goshop.ui.userhome.UserhomeFragment"
+        android:label="@string/title_userhome"
+        tools:layout="@layout/fragment_userhome" />
+
+    <fragment
+        android:id="@+id/navigation_addtrip"
+        android:name="com.example.goshop.ui.addtrip.AddtripFragment"
+        android:label="@string/title_addtrip"
+        tools:layout="@layout/fragment_addtrip" />
+
+    <fragment
+        android:id="@+id/navigation_mytrips"
+        android:name="com.example.goshop.ui.mytrips.MytripsFragment"
+        android:label="@string/title_mytrips"
+        tools:layout="@layout/fragment_mytrips" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.goshop.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

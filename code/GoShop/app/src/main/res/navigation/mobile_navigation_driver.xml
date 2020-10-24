@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_driverhome">
+
+    <fragment
+        android:id="@+id/navigation_driverhome"
+        android:name="com.example.goshop.ui.driverhome.DriverhomeFragment"
+        android:label="@string/title_driverhome"
+        tools:layout="@layout/fragment_driverhome" />
+
+    <fragment
+        android:id="@+id/navigation_addavailability"
+        android:name="com.example.goshop.ui.addavailability.AddavailabilityFragment"
+        android:label="@string/title_addavailability"
+        tools:layout="@layout/fragment_addavailability" />
+
+    <fragment
+        android:id="@+id/navigation_jobs"
+        android:name="com.example.goshop.ui.jobs.JobsFragment"
+        android:label="@string/title_jobs"
+        tools:layout="@layout/fragment_jobs" />
+
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.goshop.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

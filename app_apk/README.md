@@ -1,0 +1,1 @@
+The APK can be found in this directory or alternatively you can use [this link](http://www.mediafire.com/file/60lxvn6ipyit22r/GoShop.apk/file) to bring you to a Mediafire page.
